@@ -17,20 +17,24 @@ a:hover {
 }
 
 header {
-	margin-bottom: 20px;
 	border-bottom: 1px solid #d8d8d8;
 	overflow: auto;
 }
 
 h1 {
-	margin: 20px 0 8px 0;
-	font-size: 3em;
+	margin: 20px 0 15px;
+	font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	font-size: 5em;
 }
 
 h2 {
-	margin-bottom: 18px;
-	padding-left: 10px;
+	margin-bottom: 40px;
+	padding-left: 14px;
 	border-left: 8px solid #363636;
+	font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	font-size: 2em;
 }
 
 ul {
@@ -52,14 +56,14 @@ nav li {
 }
 
 #gallery {
+	padding: 10px 0;
 	overflow: auto;
-	padding-bottom: 20px;
 	border-bottom: 1px solid #d8d8d8;
 }
 
 #gallery li {
 	float: left;
-	margin: 10px;
+	margin: 10px 10px 5px;
 }
 
 #gallery li:hover {
@@ -77,20 +81,29 @@ nav li {
 }
 
 #foreword {
-	margin-top: 20px;
-	padding-bottom: 20px;
+	padding: 40px 0;
 }
 
 #footcontainer {
 	background-color: #363636;	
 	-webkit-box-shadow: inset 0 6px 20px #262626;
+	-moz-box-shadow: inset 0 6px 20px #262626;
+	box-shadow: inset 0 6px 20px #262626;
 }
 
 #info {
 	max-width: 1000px;
 	margin: 0 auto;
-	padding: 10px 40px;
+	padding: 40px;
 	color: #fff;
+}
+
+iframe {
+	margin: 0;
+	border: 0;
+	width: 100%;
+	height: 350px;
+	overflow: hidden;
 }
 
 #info h2 {
@@ -98,5 +111,5 @@ nav li {
 }
 
 address {
-	margin: 20px 0;
+	margin-top: 20px;
 }
