@@ -3,7 +3,7 @@ body {
 	padding: 0;
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 1em;
-	background-color: #fff;
+	background-color: #eee;
 	color: #363636;
 }
 
@@ -16,25 +16,25 @@ a:hover {
 	color: #363636;
 }
 
-header {
-	border-bottom: 1px solid #d8d8d8;
-	overflow: auto;
-}
-
 h1 {
 	margin: 20px 0 15px;
 	font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: 400;
 	font-size: 5em;
+	font-weight: 400;
 }
 
 h2 {
 	margin-bottom: 40px;
 	padding-left: 14px;
-	border-left: 8px solid #363636;
 	font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: 400;
 	font-size: 2em;
+	font-weight: 400;
+	border-left: 8px solid #363636;
+}
+
+header {
+	overflow: auto;
+	border-bottom: 1px solid #d8d8d8;
 }
 
 ul {
@@ -43,16 +43,18 @@ ul {
 	list-style-type: none;
 }
 
-nav li {
+li {
 	float: left;
-	margin: 0 20px 10px 0;
-	padding-left: 6px;
+}
+
+nav li {
+	margin: 0 20px 10px 10px;
 }
 
 #container {
-	max-width: 1000px;
 	margin: 0 auto;
 	padding: 0 40px;
+	max-width: 1000px;
 }
 
 #gallery {
@@ -62,7 +64,6 @@ nav li {
 }
 
 #gallery li {
-	float: left;
 	margin: 10px 10px 5px;
 }
 
@@ -73,43 +74,35 @@ nav li {
 
 #gallery li:active {
 	position: relative;
-	top: 5px;
-
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
+	top: 4px;
 }
 
 #foreword {
 	padding: 40px 0;
 }
 
-#footcontainer {
+#footcontain {
 	background-color: #363636;	
 	-webkit-box-shadow: inset 0 6px 20px #262626;
-	-moz-box-shadow: inset 0 6px 20px #262626;
-	box-shadow: inset 0 6px 20px #262626;
+	-moz-box-shadow: 	inset 0 6px 20px #262626;
+	box-shadow: 		inset 0 6px 20px #262626;
 }
 
 #info {
-	max-width: 1000px;
 	margin: 0 auto;
 	padding: 40px;
-	color: #fff;
-}
-
-iframe {
-	margin: 0;
-	border: 0;
-	width: 100%;
-	height: 350px;
-	overflow: hidden;
+	max-width: 1000px;
+	color: #eee;
 }
 
 #info h2 {
-	border-color: #fff; 
+	border-color: #eee; 
 }
 
-address {
-	margin-top: 20px;
+iframe {
+	margin-bottom: 20px;
+	width: 100%;
+	height: 350px;
+	overflow: hidden;
+	border: 0;
 }
