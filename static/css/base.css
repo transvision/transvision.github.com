@@ -39,11 +39,6 @@ h2 {
 	border-left: 8px solid #363636;
 }
 
-header {
-	overflow: hidden;
-	border-bottom: 1px solid #d8d8d8;
-}
-
 ul {
 	margin: 0;
 	padding: 0;
@@ -54,8 +49,15 @@ li {
 	float: left;
 }
 
+nav {
+	padding: 10px;
+	overflow: hidden;
+	border-top: 1px solid #d8d8d8;
+	border-bottom: 1px solid #d8d8d8;
+}
+
 nav li {
-	margin: 0 20px 10px 10px;
+	margin-right: 20px;
 }
 
 #container {
@@ -81,7 +83,7 @@ nav li {
 
 #gallery li:active {
 	position: relative;
-	top: 4px;
+	top: 2px;
 }
 
 #foreword {
@@ -90,7 +92,6 @@ nav li {
 
 #footcontain {
 	background: #363636 url('/static/img/site/footerbg.png');
-	border-top: 1px dashed #eee;
 	
 	-webkit-box-shadow: inset 0 10px 30px #262626;
 	-moz-box-shadow: 	inset 0 10px 30px #262626;
