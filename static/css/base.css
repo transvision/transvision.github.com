@@ -4,6 +4,7 @@ body {
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 1em;
 	background-color: #eee;
+	background-image: url(/static/img/site/bg.png);
 	color: #363636;
 }
 
@@ -85,20 +86,23 @@ nav li {
 
 #footcontain {
 	background-color: #363636;	
-	-webkit-box-shadow: inset 0 6px 20px #262626;
-	-moz-box-shadow: 	inset 0 6px 20px #262626;
-	box-shadow: 		inset 0 6px 20px #262626;
+	background-image: url(/static/img/site/footerbg.png);
+	-webkit-box-shadow: inset 0 10px 30px #161616;
+	-moz-box-shadow: 	inset 0 10px 30px #161616;
+	box-shadow: 		inset 0 10px 30px #161616;
+	border-top: 1px dashed #eee;
 }
 
 #info {
 	margin: 0 auto;
-	padding: 40px;
+	padding: 40px 40px 80px;
 	max-width: 1000px;
 	color: #eee;
+	text-shadow: 0px 2px 0px #000;
 }
 
 #info h2 {
-	border-color: #eee; 
+	border-color: #eee;
 }
 
 iframe {
