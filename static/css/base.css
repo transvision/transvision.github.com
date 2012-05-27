@@ -17,14 +17,12 @@ body {
 }
 
 a {
-	color: #7f7f7f;
+	color: #08c;
 	text-decoration: none;
 }
 
 a:hover {
-	padding-bottom: 6px;
-	color: #363636;
-	border-bottom: 4px solid #363636;
+	color: #005580;
 }
 
 h1 {
@@ -54,6 +52,16 @@ nav {
 	overflow: hidden;
 	border-top: 1px solid #d8d8d8;
 	border-bottom: 1px solid #d8d8d8;
+}
+
+nav a {
+	color: #7f7f7f;
+}
+
+nav a:hover {
+	padding-bottom: 6px;
+	color: #363636;
+	border-bottom: 4px solid #363636;
 }
 
 nav li {
