@@ -26,15 +26,20 @@ a:hover {
 }
 
 h1 {
-	margin: 20px 0 15px;
+	margin: 20px 0 0;
 	font: 400 5em "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h2 {
 	margin-bottom: 40px;
 	padding-left: 14px;
-	font: 400 2em "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 400 1.8em "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	border-left: 8px solid #363636;
+}
+
+header h2 {
+	margin-top: 0;
+	border-color: #e15757;
 }
 
 ul {
