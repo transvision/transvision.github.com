@@ -1,0 +1,7 @@
+body {
+	background: #eee url('/static/img/site/bg.png') repeat;
+}
+
+#footcontain {
+	background: #363636 url('/static/img/site/footerbg.png') repeat fixed;
+}
