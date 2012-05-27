@@ -14,6 +14,8 @@ a {
 
 a:hover {
 	color: #363636;
+	padding-bottom: 6px;
+	border-bottom: 4px solid #363636;
 }
 
 h1 {
@@ -33,7 +35,7 @@ h2 {
 }
 
 header {
-	overflow: auto;
+	overflow: hidden;
 	border-bottom: 1px solid #d8d8d8;
 }
 
