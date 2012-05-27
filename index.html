@@ -16,53 +16,9 @@ title: Transvision Exhibition
 	</header>
 	<section id="gallery">
 		<ul>
-			<li><img src="http://placehold.it/180x180" alt=""></li>
-			<li><img src="http://placehold.it/180x180" alt=""></li>
-			<li><img src="http://placehold.it/180x180" alt=""></li>
-			<li><img src="http://placehold.it/180x180" alt=""></li>
-			<li><img src="http://placehold.it/180x180" alt=""></li>
-		</ul>
-		<ul>
-			<li><img src="http://placehold.it/180x180" alt=""></li>
-			<li><img src="http://placehold.it/180x180" alt=""></li>
-			<li><img src="http://placehold.it/180x180" alt=""></li>
-			<li><img src="http://placehold.it/180x180" alt=""></li>
-			<li><img src="http://placehold.it/180x180" alt=""></li>
-		</ul>
-		<ul>
-			<li><img src="http://placehold.it/180x180" alt=""></li>
-			<li><img src="http://placehold.it/180x180" alt=""></li>
-			<li><img src="http://placehold.it/180x180" alt=""></li>
-			<li><img src="http://placehold.it/180x180" alt=""></li>
-			<li><img src="http://placehold.it/180x180" alt=""></li>
-		</ul>
-		<ul>
-			<li><img src="http://placehold.it/180x180" alt=""></li>
-			<li><img src="http://placehold.it/180x180" alt=""></li>
-			<li><img src="http://placehold.it/180x180" alt=""></li>
-			<li><img src="http://placehold.it/180x180" alt=""></li>
-			<li><img src="http://placehold.it/180x180" alt=""></li>
-		</ul>
-		<ul>
-			<li><img src="http://placehold.it/180x180" alt=""></li>
-			<li><img src="http://placehold.it/180x180" alt=""></li>
-			<li><img src="http://placehold.it/180x180" alt=""></li>
-			<li><img src="http://placehold.it/180x180" alt=""></li>
-			<li><img src="http://placehold.it/180x180" alt=""></li>
-		</ul>
-		<ul>
-			<li><img src="http://placehold.it/180x180" alt=""></li>
-			<li><img src="http://placehold.it/180x180" alt=""></li>
-			<li><img src="http://placehold.it/180x180" alt=""></li>
-			<li><img src="http://placehold.it/180x180" alt=""></li>
-			<li><img src="http://placehold.it/180x180" alt=""></li>
-		</ul>
-		<ul>
-			<li><img src="http://placehold.it/180x180" alt=""></li>
-			<li><img src="http://placehold.it/180x180" alt=""></li>
-			<li><img src="http://placehold.it/180x180" alt=""></li>
-			<li><img src="http://placehold.it/180x180" alt=""></li>
-			<li><img src="http://placehold.it/180x180" alt=""></li>
+			{% for post in site.posts %}
+				<li><a data-fancybox-group="gallery-image" href="/static/img/gallery/{{ post.image }}.jpg" title="{{ post.info }}"><img src="/static/img/gallery/{{ post.image }}-s.jpg" title="{{ post.title }}"/></a></li>
+			{% endfor %}
 		</ul>
 	</section>
 	<section id="foreword">
