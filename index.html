@@ -17,8 +17,11 @@ title: Transvision Exhibition
 	<section id="gallery">
 		<ul>
 			{% for post in site.posts %}
-				<li><a data-fancybox-group="gallery-image" href="/static/img/gallery/{{ post.image }}.jpg" title="{{ post.info }}"><img src="/static/img/gallery/{{ post.image }}-s.jpg" title="{{ post.title }}"/></a></li>
+				<li><a data-fancybox-group="gallery-image" href="/static/img/gallery/{{ post.image }}.jpg" title="{{ post.title }}"><img src="/static/img/gallery/{{ post.image }}-s.jpg" title="{{ post.title }}"/></a></li>
 			{% endfor %}
+			<li><a href="https://twitter.com/#!/transvisionshow" title="Follow us on Twitter"><img src="/static/img/site/twitter.png" alt="Twitter Logo"/></a></li>
+			<li><a href="https://www.facebook.com/events/146445082156049/" title="Invite your friends"><img src="/static/img/site/facebook.png" alt="Facebook Logo"/></a></li>
+			<li><a href="mailto:mail@transvisionexhibition.co.uk" title="Contact us"><img src="/static/img/site/email.png" alt="Email Logo"/></a></li>
 		</ul>
 	</section>
 	<section id="foreword">
