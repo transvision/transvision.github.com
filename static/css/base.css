@@ -26,6 +26,10 @@ a:hover {
 	color: #c73131;
 }
 
+a img {
+	border: none;
+}
+
 h1 {
 	margin: 20px 0 0;
 	font: 400 5em "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
