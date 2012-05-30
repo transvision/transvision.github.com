@@ -11,6 +11,9 @@ $(function() {
 			title : {
 				type : 'inside'
 			}
+		},
+		afterShow:function() {
+			_gaq.push(['_trackEvent','Gallery','View', this.title]);
 		}
 	});
 });
