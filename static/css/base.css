@@ -112,9 +112,9 @@ nav li {
 	background: url('/static/img/site/footribbon.png') no-repeat fixed top left,
 				#363636 url('/static/img/site/footerbg.png') repeat fixed;
 	
-	-webkit-box-shadow: inset 0 10px 30px #262626;
+/*	-webkit-box-shadow: inset 0 10px 30px #262626;
 	-moz-box-shadow: 	inset 0 10px 30px #262626;
-	box-shadow: 		inset 0 10px 30px #262626;
+	box-shadow: 		inset 0 10px 30px #262626; */
 }
 
 #info {
