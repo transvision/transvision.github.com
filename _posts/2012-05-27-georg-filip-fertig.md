@@ -1,5 +1,5 @@
 ---
 layout: gallery
-title: Georg-Filip Fertig
+title: Georg-Philipp Fertig
 image: georgfertig
 ---
